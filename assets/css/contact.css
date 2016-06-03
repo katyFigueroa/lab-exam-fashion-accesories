@@ -1,0 +1,238 @@
+.encabezado {
+  padding: 10px 0;
+  background-color: #DADAD9;
+}
+
+.encabezado button {
+  padding-top: 5px;
+  background-color: transparent;
+  border-color: transparent;
+  width: 130px;
+}
+
+.encabezado p {
+  display: inline-block;
+}
+
+.encabezado .fila {
+  float: right;
+}
+
+/*---hero---*/
+.hero {
+  padding: 40px 0 20px 0;
+}
+
+.hero .imagen {
+  text-align: center;
+}
+
+.hero input {
+  width: 80%;
+  padding: 5px;
+  float: right;
+  margin-top: 30px;
+}
+
+.hero .hora i {
+  font-size: 30px;
+}
+
+.hero .hora h3 {
+  display: inline-block;
+}
+
+.hero .hora p {
+  margin-left: 30px;
+}
+
+/*---menuu..*/
+.menu {
+  background-color: #DADAD9;
+}
+
+.menu li {
+  list-style: none;
+  font-size: 18px;
+  display: inline-block;
+}
+
+.menu a {
+  color: #3D3A3A;
+  padding: 21px 20px 17px 20px;
+}
+
+.menu a:hover {
+  background-color: #FF6666;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.menu ul {
+  margin-top: 20px;
+  padding-left: 0;
+}
+
+.menu button {
+  background-color: #3D3A3A;
+  border: none;
+  width: 150px;
+  padding: 0;
+  float: right;
+  color: #FFFFFF;
+}
+
+.menu button h4 {
+  display: inline-block;
+}
+
+.menu button p {
+  margin-bottom: 0;
+}
+
+.header-contact {
+  background-image: url("../images/slider2.jpg");
+  background-size: cover;
+  color: #FFFFFF;
+  padding: 80px 0;
+}
+
+.header-contact h1 {
+  background-color: #FF6666;
+  padding: 15px;
+}
+
+.header-contact .texto {
+  margin-left: 100px;
+}
+
+.formulario {
+  padding: 50px 0;
+}
+
+.formulario iframe {
+  width: 100%;
+  height: 350px;
+}
+
+.formulario input {
+  width: 100%;
+  padding: 8px 10px;
+  background-color: #DADAD9;
+  border: 1px solid #B9B3B3;
+  margin-bottom: 20px;
+}
+
+.formulario textarea {
+  width: 100%;
+  background-color: #DADAD9;
+  height: 180px;
+}
+
+.formulario .inpu {
+  padding: 0 15px;
+}
+
+.formulario button {
+  float: right;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  background-color: #3D3A3A;
+}
+
+.footer {
+  background-color: #DADAD9;
+  padding: 20px 0;
+}
+
+.footer .cuadro-redes {
+  background-color: #FFFFFF;
+  display: inline-block;
+  margin-right: 15px;
+  width: 32px;
+  height: 30px;
+  padding: 5px;
+}
+
+.footer .redes {
+  text-align: center;
+}
+
+.footer li {
+  list-style: none;
+}
+
+.footer ul {
+  padding-left: 0px;
+  font-style: normal;
+}
+
+.footer .circulo {
+  background-color: #FFFFFF;
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  margin: 10px 0 20px 0;
+  border-radius: 50%;
+}
+
+.footer .circulo i {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+/*piee de paginaa-----*/
+.pie-pagina {
+  background-color: #3D3A3A;
+  color: #FFFFFF;
+  padding: 30px 0;
+}
+
+.pie-pagina p {
+  display: inline-block;
+}
+
+.pie-pagina img {
+  float: right;
+}
+
+@media (max-width: 750px) {
+  .encabezado button {
+    width: 110px;
+  }
+  .encabezado .fila {
+    float: left;
+  }
+  .hero .hora {
+    text-align: center;
+  }
+  .hero input {
+    width: 100%;
+    margin-top: 20px;
+    float: left;
+  }
+  .menu button {
+    display: none;
+  }
+  .header-contact h1 {
+    text-align: center;
+  }
+  .formulario .contacto {
+    margin-top: 20px;
+  }
+  .footer .about .iconos {
+    text-align: center;
+  }
+  .footer .about .circulo {
+    display: inline-block;
+    margin-right: 30px;
+  }
+  .pie-pagina {
+    text-align: center;
+  }
+  .pie-pagina img {
+    float: left;
+    margin-left: 50px;
+  }
+}

@@ -1,0 +1,222 @@
+$color_negro:#3D3A3A;
+$color_blanco:#FFFFFF;
+$color_gris:#DADAD9;
+$color_violet:#EF2BE3;
+// ---------
+.encabezado{
+	padding:10px 0;
+	background-color:$color_gris;}
+.encabezado button{
+	padding-top: 5px;
+	background-color: transparent;
+	border-color: transparent;
+	width: 130px;}
+.encabezado p{display: inline-block;}
+.encabezado .fila{float: right;}
+/*---hero---*/
+.hero{
+	padding:40px 0 20px 0;}
+.hero .imagen{
+	text-align: center;}
+.hero input{
+	width: 80%;padding: 5px;
+	float: right;
+    margin-top: 30px;}
+.hero .hora i{
+    font-size: 30px;}
+.hero .hora h3{
+	display: inline-block;}
+.hero .hora p{margin-left: 30px;}
+/*---menuu..*/
+.menu{
+	background-color:$color_gris;}
+.menu li{
+	list-style: none;
+	font-size: 18px;
+	display: inline-block;}
+.menu a{
+	color: $color_negro;
+	padding: 21px 20px 17px 20px;}
+.menu a:hover{
+	background-color:#FF6666;
+	color:$color_blanco;
+	text-decoration: none;}
+.menu ul{
+	margin-top: 20px;
+    padding-left: 0;}
+.menu button{
+	background-color: $color_negro;
+	border:none;
+	width: 150px;padding: 0;
+	float: right;
+	color:$color_blanco;}
+.menu button h4{
+	display: inline-block;}
+.menu button p{margin-bottom:0;}
+/*---headerr--*/
+.header{
+    background-image: url("../images/slider1.jpg");
+	background-size: cover;
+	color:$color_blanco;}
+.header .titulo{
+    text-align: center;
+    margin-top: 100px;}
+.header .titulo h1{
+   border:2px solid $color_blanco;
+   padding: 10px 0;
+   width: 600px;
+   margin: auto;}
+.header .cuadro-oferta{
+	background-color:$color_blanco;
+	color: $color_negro;
+	padding: 10px;
+	margin-top: -190px;
+	margin-bottom:30px;
+	float: right;
+	width: 300px;}
+.header .cuadro-oferta img{
+	width: 100%;
+	padding: 5px;
+	margin-bottom: 10px;}
+/*--cont imagen---*/
+.cont-imagen{
+	margin: 50px 0 10px 0;}
+.cont-imagen img{width: 100%;}
+/*-lineaaa----*/
+.linea1{margin-top: 30px;}
+.linea1 .texto{
+	margin: auto;
+	position:relative;
+	background-color: $color_blanco;
+	width: 260px;
+	margin-top: -32px;}
+.linea1 .texto h4{
+	display: inline-block;
+    margin:0 5px;}
+/*-latest----*/
+.latest{
+	padding: 40px 0 60px 0;
+    text-align: center;}
+.latest img{width: 100%;}
+.latest p{color: $color_violet;}
+.latest .cuadro{
+	border:1px solid $color_gris;
+    padding: 7px;}
+/*-fila marcas---*/
+.fila-marcas{
+	background-image:url("../images/client-bg.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	padding: 100px 0;}
+.fila-marcas img{
+	width: 100%;}
+/*----------*/
+.linea2{margin-top: 30px;}
+.linea2 .texto{
+	margin: auto;
+	position:relative;
+	background-color:$color_blanco;
+	width: 390px;
+	margin-top: -32px;}
+.linea2 .texto h4{
+	display: inline-block;
+    margin:0 5px;}
+/*-CLOTHING-*/
+.clothing{
+	padding-top: 40px;}
+.clothing img{width: 100%;}
+.clothing .cont-clothing{
+	margin-bottom: 30px;}
+.clothing .cont-clothing .imagen{
+	background-color:$color_blanco;
+	padding: 5px;
+	border:1px solid $color_gris;}
+.clothing button{
+    background-color: $color_negro;
+    color:$color_blanco;
+    border-color: $color_negro;
+    height: 30px;
+    width: 80%;}
+.clothing button p{display: inline-block;}
+/*--------*/
+.linea3 .texto{
+	margin: auto;
+	position:relative;
+	background-color:$color_blanco;
+	width: 115px;
+	margin-top: -32px;
+}
+/*-bloggg----*/
+.blog{margin-top: 20px;}
+.blog img{
+	width: 100%;}
+.blog a{color:$color_violet;}
+.blog .vuelos{padding: 50px 0;}
+.blog .vuelos .cont-icono{border:2px solid $color_gris;}
+.blog .vuelos .cont-icono i{font-size: 30px;
+    text-align: center;}
+.blog .vuelos .cont-icono .borde{
+    width: 50px;
+    margin: 10px 0 0 20px;
+    border-right: 1px solid $color_gris;}
+/*fooooter-*/
+.footer{
+	background-color:$color_gris;
+    padding: 20px 0;}
+.footer .cuadro-redes{
+	background-color:$color_blanco;
+	display:inline-block;
+	margin-right: 15px;
+	width:32px; height:30px;
+	padding:5px;}
+.footer .redes{text-align:center;}
+.footer li{list-style: none;}
+.footer ul{padding-left:0px;font-style: normal;}
+.footer .circulo{
+	background-color:$color_blanco;
+	height:35px; width:35px;
+	text-align:center;
+	margin: 10px 0 20px 0;
+	border-radius:50%;}
+.footer .circulo i{margin-top:20px;
+	
+	font-size: 20px;}
+/*piee de paginaa-----*/
+.pie-pagina{
+	background-color:$color_negro;
+	color:$color_blanco;
+	padding:30px 0;}
+.pie-pagina p{display: inline-block;}
+.pie-pagina img{ float:right;
+}
+
+@media (max-width:750px){
+	.encabezado button{width: 110px;}
+    .encabezado .fila{float:left;}
+	.hero .hora{text-align: center;}
+	.hero input{width: 100%;
+	margin-top: 20px;float:left;}
+	.menu button{display:none;}
+	.header .titulo{margin-bottom:100px;}
+	.header .titulo h1{width: 300px;}
+	.header .cuadro-oferta{
+	display: none;}
+	.cont-imagen img{
+	margin-bottom: 20px;}
+	.fila-marcas img{
+	margin-bottom: 20px;}
+	.linea2 .texto{
+	text-align: center;
+	width: 340px;}
+	.blog .blog-text{
+	margin-bottom: 20px;}
+	.blog .vuelos .col-sm-9{
+	margin-left:100px;
+	margin-top: -50px;}
+	.footer .about .iconos{text-align:center;}
+	.footer .about .circulo{
+	display: inline-block;
+	margin-right: 30px;}
+	.pie-pagina{text-align:center;}
+	.pie-pagina img{float:left; margin-left:50px;}
+}
